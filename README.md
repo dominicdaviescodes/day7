@@ -60,8 +60,7 @@ The split class applies to both divs, then it's just a case of setting the left 
 ### Stop text wrapping to next line
 a cool css property which stops text wrapping to the next line even when the screen width is decreased.
 
-![an example of the whitespace effect](./img/whitespace.jpg)
-
+![an example of the whitespace effect](/img/whitespace.JPG)
 
 ```css
 h1 {
