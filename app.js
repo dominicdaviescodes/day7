@@ -1,7 +1,7 @@
 // grab elements
 
 const left = document.querySelector('.left');
-const right = docuement.querySelector('.right');
+const right = document.querySelector('.right');
 const container = document.querySelector('.container');
 
 // dynamically add the classes
@@ -16,7 +16,7 @@ left.addEventListener('mouseleave', () =>
 
 // add to right split
 right.addEventListener('mouseenter', () =>
-  container.classList.add('hover-rith')
+  container.classList.add('hover-right')
 );
 // Remove
 right.addEventListener('mouseleave', () =>

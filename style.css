@@ -78,6 +78,13 @@ h1 {
   overflow: hidden;
 }
 
+.split.left {
+  left: 0;
+  background: url('./img/ps.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* overlay for left split */
 .split.left::before {
   content: '';
@@ -87,9 +94,9 @@ h1 {
   background-color: var(--left-bg-color);
 }
 
-.split.left {
-  left: 0;
-  background: url('./img/ps.jpg');
+.split.right {
+  right: 0;
+  background: url('./img/xbox.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -101,13 +108,6 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: var(--right-bg-color);
-}
-
-.split.right {
-  right: 0;
-  background: url('./img/xbox.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .split.right,
