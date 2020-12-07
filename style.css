@@ -35,11 +35,29 @@ body {
   overflow: hidden;
 }
 
+/* overlay for left split */
+.split.left::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--left-bg-color);
+}
+
 .split.left {
   left: 0;
   background: url('./img/ps.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* overlay for right split */
+.split.right::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--right-bg-color);
 }
 
 .split.right {
