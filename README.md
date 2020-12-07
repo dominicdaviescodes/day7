@@ -52,7 +52,7 @@ The split class applies to both divs, then it's just a case of setting the left 
 
 .split.right {
   right: 0;
-  background: url('/img/xbox.jpg');
+  background: url('./img/xbox.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
