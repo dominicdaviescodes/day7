@@ -8,6 +8,7 @@
   /* Hover Effects */
   --hover-width: 75%;
   --other-width: 25%;
+  /* Hover Transition Speed */
   --speed: 1000ms;
 }
 
@@ -107,6 +108,13 @@ h1 {
   background: url('./img/xbox.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.split.right,
+.split.left,
+.split.right::before,
+.split.left::before {
+  transition: all var(--speed) ease-in-out;
 }
 
 /* Hover Effects Left Side*/
